@@ -1,0 +1,33 @@
+Detecting C compiler ABI info failed to compile with the following output:
+Change Dir: D:/thor/2024/leetcode/day1/untitled/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-m1ow0p
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.3.3/bin/ninja/win/x64/ninja.exe cmTC_8c089 && [1/2] Building C object CMakeFiles\cmTC_8c089.dir\CMakeCCompilerABI.c.obj
+FAILED: CMakeFiles/cmTC_8c089.dir/CMakeCCompilerABI.c.obj 
+D:\software\VS2022\software\VC\Tools\MSVC\14.38.33130\bin\Hostx64\x64\cl.exe  /nologo   /DWIN32 /D_WINDOWS  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes /FoCMakeFiles\cmTC_8c089.dir\CMakeCCompilerABI.c.obj /FdCMakeFiles\cmTC_8c089.dir\ /FS -c D:\software\cmake\share\cmake-3.25\Modules\CMakeCCompilerABI.c
+D:\software\cmake\share\cmake-3.25\Modules\CMakeCCompilerABI.c(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\software\cmake\share\cmake-3.25\Modules\CMakeCCompilerABI.c(1): error C2018: 未知字符“0x18”
+D:\software\cmake\share\cmake-3.25\Modules\CMakeCCompilerABI.c(1): error C2018: 未知字符“0x1b”
+D:\software\cmake\share\cmake-3.25\Modules\CMakeCCompilerABI.c(1): error C2018: 未知字符“0x3”
+ninja: build stopped: subcommand failed.
+
+
+
+
+Detecting CXX compiler ABI info failed to compile with the following output:
+Change Dir: D:/thor/2024/leetcode/day1/untitled/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-xgrgml
+
+Run Build Command(s):C:/Program Files/JetBrains/CLion 2023.3.3/bin/ninja/win/x64/ninja.exe cmTC_101c1 && [1/4] Scanning D:\software\cmake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp for CXX dependencies
+[2/4] Generating CXX dyndep file CMakeFiles\cmTC_101c1.dir\CXX.dd
+[3/4] Building CXX object CMakeFiles\cmTC_101c1.dir\CMakeCXXCompilerABI.cpp.obj
+FAILED: CMakeFiles/cmTC_101c1.dir/CMakeCXXCompilerABI.cpp.obj 
+D:\software\VS2022\software\VC\Tools\MSVC\14.38.33130\bin\Hostx64\x64\cl.exe  /nologo /TP   /DWIN32 /D_WINDOWS /EHsc  /Ob0 /Od /RTC1 -MDd -Zi /showIncludes @CMakeFiles\cmTC_101c1.dir\CMakeCXXCompilerABI.cpp.obj.modmap /FoCMakeFiles\cmTC_101c1.dir\CMakeCXXCompilerABI.cpp.obj /FdCMakeFiles\cmTC_101c1.dir\ /FS -c D:\software\cmake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp
+D:\software\cmake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp(1): warning C4828: 文件包含在偏移 0x596 处开始的字符，该字符在当前源字符集中无效(代码页 936)。
+D:\software\cmake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp(1): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+D:\software\cmake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp(1): error C2018: 未知字符“0x18”
+D:\software\cmake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp(1): error C2018: 未知字符“0x1b”
+D:\software\cmake\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp(1): error C2018: 未知字符“0x3”
+ninja: build stopped: subcommand failed.
+
+
+
+
